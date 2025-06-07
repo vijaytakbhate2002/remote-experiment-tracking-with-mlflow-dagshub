@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/WorkSpace/Complete_MLOps_Bootcamp_With_10_End_To_End_ML_Projects/5-Dagshub_with_mlflow/mlruns/602287453526109711/d017f48681c44a71ba4f17ee2bdc212c/artifacts
+end_time: 1749286931370
+entry_point_name: ''
+experiment_id: '602287453526109711'
+lifecycle_stage: active
+run_id: d017f48681c44a71ba4f17ee2bdc212c
+run_name: Random Forest Classifier
+run_uuid: d017f48681c44a71ba4f17ee2bdc212c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749286919392
+status: 3
+tags: []
+user_id: admin

@@ -15,13 +15,14 @@ y = iris.target
 # Split the data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-mlflow.set_tracking_uri("https://dagshub.com/vijaytakbhate2002/dagshub-mlflow-dvc-project.mlflow")
+# MLFLOW_TRACKING_URI = "ADD YOUR TRACKING URI HERE"
+# mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 
 # os.environ["MLFLOW_TRACKING_USERNAME"] = "ADD YOUR USERNAME HERE"
 # os.environ["MLFLOW_TRACKING_PASSWORD"] = "ADD YOUR PASSWORD HERE"
 
 # Set the MLflow experiment name
-mlflow.set_experiment("Iris Classification v2")
+mlflow.set_experiment("Iris Classification v1")
 
 # Start an MLflow run
 with mlflow.start_run(run_name="Random Forest Classifier"):
